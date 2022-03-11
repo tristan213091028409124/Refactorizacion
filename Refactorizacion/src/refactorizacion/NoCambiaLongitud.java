@@ -9,7 +9,7 @@ package refactorizacion;
  *
  * @author F
  */
-public class NoCambiaLongitud {
+public class NoCambiaLongitud extends Vector{
     
     /**
      * @return the valor
@@ -24,18 +24,8 @@ public class NoCambiaLongitud {
     public void setValor(int valor) {
         this.valor = valor;
     }
-
-    private int valor;
+    
 //metodo que modifica el contenido de la posicion posicion de un array con el valor pasado
-
-    public void Visualizar(final int longitud, int[] vector) {
-        //Mostramos los elementos del array
-        System.out.print("v={");
-        for (int i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
-    }
 
     public void modificar(int[] vector, int posicion, CambiaLongitud cambiaLongitud) {
         int LongitudActual = 0;
