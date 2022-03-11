@@ -23,7 +23,7 @@ public class Refactorizacion {
         v[3] = 8;
         CambiaLongitud p = new CambiaLongitud();
         p.setValor(10);
-        p.modificar(v, 1);
+        p.modificar(v, 1, this);
         p.borrar(v);
         p.insertar(v);
     }
